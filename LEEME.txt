@@ -1,35 +1,17 @@
-CALISTENIA MILITAR — APP FINAL 8 SEMANAS
+CALISTENIA MILITAR - VERSION FINAL 3
 
-Esta carpeta es la versión final, lista para usar en celular y preparada como PWA.
-No requiere compras, suscripciones ni una cuenta dentro de la app.
+Esta versión incluye:
+- sonido por pulsación del temporizador y señal al llegar a 0;
+- control de sonido ON/OFF;
+- ilustraciones visuales integradas en las fichas de ejercicios;
+- menú inferior desplazable y adaptado a móviles;
+- actualización reforzada del Service Worker;
+- funcionamiento PWA/offline y conservación de datos mediante localStorage.
 
-PARA INSTALAR GRATIS
-1) Subí esta carpeta a un sitio HTTPS gratuito, por ejemplo GitHub Pages.
-2) Abrí la dirección de la app desde el celular.
-3) Android/Chrome: menú ⋮ → Instalar app / Agregar a pantalla principal.
-   iPhone/Safari: Compartir → Agregar a pantalla de inicio.
-4) Después de la primera carga, la app puede funcionar sin conexión.
+Para actualizar una instalación existente publicada en GitHub Pages:
+1. Reemplazar index.html, sw.js y manifest.webmanifest en el repositorio.
+2. Esperar a que GitHub Pages termine el despliegue.
+3. Abrir la dirección de la app en Chrome y recargar.
+4. Si el icono instalado todavía muestra la versión anterior, cerrar completamente la app, abrirla desde Chrome una vez, recargar y volver a abrir desde el icono.
 
-SI SOLO QUERÉS PROBARLA EN PC
-Abrí index.html. La app funciona como página local; las funciones PWA de instalación requieren HTTPS o localhost.
-
-FUNCIONES FINALES
-- 8 semanas y calendario de 56 días.
-- Modo Entrenar de pantalla guiada, ejercicio por ejercicio.
-- Series/bloques individuales con registro de repeticiones o tiempo.
-- RPE por serie y registro de sesión.
-- Cronómetro de trabajo.
-- Descanso automático de 90 s entre series, con saltar y +15 s.
-- Vibración al finalizar temporizadores cuando el dispositivo/navegador lo permite.
-- Ficha técnica rápida de ejercicios.
-- Progresiones y variantes.
-- Gráficos de evolución.
-- Comparación Semana 1 / 7 / 8.
-- Calendario con acceso directo a cada sesión.
-- Notas personales.
-- Exportación y restauración del progreso mediante JSON.
-- Guardado local en el dispositivo.
-- Diseño adaptado a celular.
-
-CONTENIDO
-El plan, la organización y la dosificación se basan en el Manual de Calistenia Militar de 8 semanas proporcionado en la conversación.
+No requiere pagos ni una tienda de aplicaciones.
